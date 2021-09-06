@@ -12,6 +12,7 @@
 - 代码 | https://link.zhihu.com/?target=https%3A//github.com/Bibkiller/ASR
 
 ## 2. Semantic Segmentation with Generative Models: Semi-Supervised Learning and Strong Out-of-Domain Generalization
+- 提出一个完全生成性方法进行语义分割，基于SyleGAN2，允许半监督训练，并且展示了强大的泛化性
 - 作者 | Daiqing Li, Junlin Yang, Karsten Kreis, Antonio Torralba, Sanja Fidler
 - 单位 | 英伟达；多伦多大学；耶鲁大学；麻省理工学院；Vector Institute
 - 论文 | https://link.zhihu.com/?target=https%3A//arxiv.org/abs/2104.05833
