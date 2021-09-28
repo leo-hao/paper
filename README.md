@@ -22,12 +22,31 @@
 
 ## 3. Railroad is not a Train: Saliency as Pseudo-pixel Supervision for Weakly Supervised Semantic Segmentation
 
+- 弱监督
 - 作者 | Seungho Lee, Minhyun Lee, Jongwuk Lee, Hyunjung Shim
 - 单位 | 延世大学；成均馆大学
 - 论文 | <https://link.zhihu.com/?target=https%3A//arxiv.org/abs/2105.08965>
 - 代码 | <https://link.zhihu.com/?target=https%3A//github.com/halbielee/EPS>
 
-## 4. Learning Calibrated Medical Image Segmentation via Multi-rater Agreement Modeling
+
+## 4. HyperSeg: Patch-wise Hypernetwork for Real-time Semantic Segmentation
+
+- 实时
+- 作者 | Yuval Nirkin, Lior Wolf, Tal Hassner
+- 单位 | Facebook；巴-伊兰大学；以色列特拉维夫大学
+- 论文 | <https://link.zhihu.com/?target=https%3A//arxiv.org/abs/2012.11582>
+- 代码 | <https://link.zhihu.com/?target=https%3A//github.com/YuvalNirkin/hyperseg>
+
+## 5. Self-supervised Augmentation Consistency for Adapting Semantic Segmentation
+
+- 本次工作提出一种既实用又高度准确的语义分割域适应方法。与以前的工作相比，放弃了使用涉及计算的对抗性目标、网络集成和风格迁移。而是采用标准的数据增强技术：光度噪声、翻转和缩放，并确保语义预测在这些图像转换中的一致性。通过简单的增强技术和 momentum 更新，显著提高了最先进的分割精度。
+- 作者 | Nikita Araslanov, Stefan Roth
+- 单位 | 达姆施塔特工业大学；hessian.AI
+- 论文 | <https://link.zhihu.com/?target=https%3A//arxiv.org/abs/2105.00097>
+- 代码 | <https://link.zhihu.com/?target=https%3A//github.com/visinf/da-sac>
+
+
+## 6. Learning Calibrated Medical Image Segmentation via Multi-rater Agreement Modeling
 
 - 在医学图像分析中，典型的做法是收集多个标注，每个标注都来自不同的临床专家或评分者，减少可能出现的诊断误差。同时，从计算机视觉从业者的角度来看，通常的做法是采用通过多数票或简单地从首选评分者那里获得的基础ground-truth 标签。但这一过程往往忽略了原始的多评判员标注中所蕴含丰富的一致或分歧信息。
 - 针对此，提出一个新的模型，MRNet。首先，设计一个expertiseaware inferring 模块或 EIM，将各个评分者的专业水平作为先验知识嵌入其中，以形成高层次的语义特征。其次，该方法能够从粗略的预测中重建多评判者的等级，并进一步利用多评判者（不）一致的线索来提高分割的性能。
@@ -36,3 +55,4 @@
 - 单位 | 腾讯天衍实验室；阿尔伯塔大学；首都医科大学
 - 论文 | <https://link.zhihu.com/?target=https%3A//openaccess.thecvf.com/content/CVPR2021/papers/Ji_Learning_Calibrated_Medical_Image_Segmentation_via_Multi-Rater_Agreement_Modeling_CVPR_2021_paper.pdf>
 - 代码 | <https://link.zhihu.com/?target=https%3A//github.com/jiwei0921/MRNet/>
+
