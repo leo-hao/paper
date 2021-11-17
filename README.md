@@ -56,3 +56,15 @@
 - 论文 | <https://link.zhihu.com/?target=https%3A//openaccess.thecvf.com/content/CVPR2021/papers/Ji_Learning_Calibrated_Medical_Image_Segmentation_via_Multi-Rater_Agreement_Modeling_CVPR_2021_paper.pdf>
 - 代码 | <https://link.zhihu.com/?target=https%3A//github.com/jiwei0921/MRNet/>
 
+# Domain Adaptive Semantic Segmentation
+
+## 1.Prototypical Pseudo Label Denoising and Target Structure Learning for Domain Adaptive Semantic Segmentation
+
+- 固定prototypical 特征，通过距离计算伪标签，在线训练更新权重；
+- 同时根据同一个目标的两个不同的视图相对于原型对齐距离，来产生紧凑的特征空间
+- Synthetic-to-Real Translation on GTAV-to-Cityscapes Labels数据集上排名第二2021-11-17
+- 作者 | Pan Zhang *, Bo Zhang, Ting Zhang, Dong Chen, Yong Wang, Fang Wen
+- 单位 | University of Science and Technology of China, Microsoft Research Asia
+- 论文 | https://arxiv.org/abs/2101.10979
+- 代码 | https://github.com/microsoft/ProDA
+
