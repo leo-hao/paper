@@ -68,3 +68,12 @@
 - 论文 | https://arxiv.org/abs/2101.10979
 - 代码 | https://github.com/microsoft/ProDA
 
+## 2.DSP: Dual Soft-Paste for Unsupervised Domain Adaptive Semantic Segmentation
+
+- 提出了一种新颖的双软粘贴 (DSP)创建具有较小域的新中间域的方法差距。 基于平均教师框架，进行DSP诱导的输出级对齐和特征级对齐，其中有助于学习域不变特征。
+- 此外，长尾类DSP 中使用的第一个采样策略显示了它在解决类不平衡问题方面的有效性。 
+- Synthetic-to-Real Translation on GTAV-to-Cityscapes Labels数据集上排名第二2021-11-17
+- 作者 | Li Gao, Jing Zhang, Lefei Zhang, and Dacheng Tao
+- 单位 | Wuhan University, The University of Sydney, JD Explore Academy
+- 论文 | https://arxiv.org/pdf/2107.09600v3.pdf
+- 代码 | https://github.com/GaoLii/DSP
