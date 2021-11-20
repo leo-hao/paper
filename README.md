@@ -77,3 +77,10 @@
 - 单位 | Wuhan University, The University of Sydney, JD Explore Academy
 - 论文 | https://arxiv.org/pdf/2107.09600v3.pdf
 - 代码 | https://github.com/GaoLii/DSP
+
+## 3.DACS: Domain Adaptation via Cross-domain Mixed Sampling
+- 提出了一种用于语义分割无监督自适应的新算法，跨域混合的域自适应，用于解决朴素混合强制一致性造成的混淆问题。进一步提升了域适应的表现。
+- 作者 | Wilhelm Tranheden1,2*, Viktor Olsson1,2*, Juliano Pinto1, Lennart Svensson1
+- 单位 | 1Chalmers University of Technology, Gothenburg, Sweden 2Volvo Cars, Gothenburg, Sweden
+- 论文 | https://arxiv.org/abs/2007.08702
+- 代码 | https://github.com/vikolss/DACS
