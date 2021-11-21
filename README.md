@@ -79,8 +79,17 @@
 - 代码 | https://github.com/GaoLii/DSP
 
 ## 3.DACS: Domain Adaptation via Cross-domain Mixed Sampling
+
 - 提出了一种用于语义分割无监督自适应的新算法，跨域混合的域自适应，用于解决朴素混合强制一致性造成的混淆问题。进一步提升了域适应的表现。
 - 作者 | Wilhelm Tranheden1,2*, Viktor Olsson1,2*, Juliano Pinto1, Lennart Svensson1
 - 单位 | 1Chalmers University of Technology, Gothenburg, Sweden 2Volvo Cars, Gothenburg, Sweden
 - 论文 | https://arxiv.org/abs/2007.08702
 - 代码 | https://github.com/vikolss/DACS
+
+## 4.Domain Adaptive Semantic Segmentation with Self-Supervised Depth Estimation
+
+- ICCV21，用辅助任务深度估计弥合领域差异，提出的自监督学习目标域的深度，自注意力显示学习语义和深度的关系，将源域知识共享到目标域，最后整合到一个现有的自训练框架DACS
+- 作者 | Qin Wang1 Dengxin Dai1,2*Lukas Hoyer1 Luc Van Gool1,3 Olga Fink
+- 单位 | 1ETH Zurich, Switzerland 2MPI for Informatics, Germany 3KU Lueven, Belgium
+- 论文 | http://arxiv.org/abs/2104.13613
+- 代码 | https://qin.ee/corda
