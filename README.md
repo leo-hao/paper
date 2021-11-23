@@ -93,3 +93,13 @@
 - 单位 | 1ETH Zurich, Switzerland 2MPI for Informatics, Germany 3KU Lueven, Belgium
 - 论文 | http://arxiv.org/abs/2104.13613
 - 代码 | https://qin.ee/corda
+
+## 5. 
+
+## 6.PixMatch: Unsupervised Domain Adaptation via Pixelwise Consistency Training
+
+- 我们引入一种一致性损失项，模型预测目标图像和预测相同带扰动的图片之间的差距，并且研究比较了四种不同扰动的影响：强数据增强、风格迁移、CutMix、傅里叶变换，相比下对于流行的对抗性适应方法，我们的方法更简单、更容易实现、内存效率更高在训练中
+- 作者 | Luke Melas-Kyriazi, Arjun K. Manrai
+- 单位 | Harvard University...
+- 论文 | https://arxiv.org/abs/2105.08128
+- 代码 | https://github.com/lukemelas/pixmatch
