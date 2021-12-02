@@ -94,7 +94,12 @@
 - 论文 | http://arxiv.org/abs/2104.13613
 - 代码 | https://qin.ee/corda
 
-## 5. 
+## 5. Dual Path Learning for Domain Adaptation of Semantic Segmentation
+- DPL包含两个分别互补和交互的源域、目标域适应管道。DPL的推理非常简单，只采用目标域中的一种分割模型。新技术：提出的双路图像迁移、双路适应分割，使两条路径以一种交互的方式提出对方。
+- 作者 | Yiting Cheng1 Fangyun Wei* 2Jianmin Bao2 Dong Chen2 Fang Wen2 Wenqiang Zhang*1
+- 单位 | 1Fudan University 2Microsoft Research Asia
+- 论文 | https://arxiv.org/pdf/2108.06337.pdf
+- 代码 |  https://github.com/royee182/DPL
 
 ## 6.PixMatch: Unsupervised Domain Adaptation via Pixelwise Consistency Training
 
@@ -103,3 +108,12 @@
 - 单位 | Harvard University...
 - 论文 | https://arxiv.org/abs/2105.08128
 - 代码 | https://github.com/lukemelas/pixmatch
+
+## 7.SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers
+
+- Transformers与轻量级多层感知器（MLP）统一起来；1. 分层结构的transformers编码器，并且不需要位置编码:MixFFN；2.避免使用复杂的解码器，MLP聚合了不同层的信息
+- 网络更小，效果也佳
+- 作者 | Enze Xie1, Wenhai Wang2, Zhiding Yu3, Anima Anandkumar3,4, Jose M. Alvarez3, Ping Luo1
+- 单位 | The University of Hong Kong 2Nanjing University 3NVIDIA 4Caltech
+- 论文 | https://arxiv.org/abs/2105.15203
+- 代码 | https://github.com/NVlabs/SegFormer
