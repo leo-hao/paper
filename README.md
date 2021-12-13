@@ -56,6 +56,16 @@
 - 论文 | <https://link.zhihu.com/?target=https%3A//openaccess.thecvf.com/content/CVPR2021/papers/Ji_Learning_Calibrated_Medical_Image_Segmentation_via_Multi-Rater_Agreement_Modeling_CVPR_2021_paper.pdf>
 - 代码 | <https://link.zhihu.com/?target=https%3A//github.com/jiwei0921/MRNet/>
 
+## 7.SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers
+
+- Transformers与轻量级多层感知器（MLP）统一起来；1. 分层结构的transformers编码器，并且不需要位置编码:MixFFN；2.避免使用复杂的解码器，MLP聚合了不同层的信息
+- 网络更小，效果也佳
+- 作者 | Enze Xie1, Wenhai Wang2, Zhiding Yu3, Anima Anandkumar3,4, Jose M. Alvarez3, Ping Luo1
+- 单位 | The University of Hong Kong 2Nanjing University 3NVIDIA 4Caltech
+- 论文 | https://arxiv.org/abs/2105.15203
+- 代码 | https://github.com/NVlabs/SegFormer
+
+
 # Domain Adaptive Semantic Segmentation
 
 ## 1.Prototypical Pseudo Label Denoising and Target Structure Learning for Domain Adaptive Semantic Segmentation
@@ -109,11 +119,12 @@
 - 论文 | https://arxiv.org/abs/2105.08128
 - 代码 | https://github.com/lukemelas/pixmatch
 
-## 7.SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers
+## 7.DAFormer: Improving Network Architectures and Training Strategies for Domain-Adaptive Semantic Segmentation
 
-- Transformers与轻量级多层感知器（MLP）统一起来；1. 分层结构的transformers编码器，并且不需要位置编码:MixFFN；2.避免使用复杂的解码器，MLP聚合了不同层的信息
-- 网络更小，效果也佳
-- 作者 | Enze Xie1, Wenhai Wang2, Zhiding Yu3, Anima Anandkumar3,4, Jose M. Alvarez3, Ping Luo1
-- 单位 | The University of Hong Kong 2Nanjing University 3NVIDIA 4Caltech
-- 论文 | https://arxiv.org/abs/2105.15203
-- 代码 | https://github.com/NVlabs/SegFormer
+- Transformer编码器和一个多级上下文特征融合解码器;三种简单但是关键训练策略：稳定训练，并且避免对源域过拟合(少量类的频繁采样，imageNet特征距离，学习率热身)
+- 显著提高了GTA->cityscapes的性能10.8mIoU，提高Synthia的5.4mIoU，甚至可以学习到诸如火车、公共汽车、汽车等困难的类别。
+- 作者 | Lukas Hoyer    Dengxin Dai     Luc Van Gool
+- 单位 | ETH Zurich
+- 论文 | https://arxiv.org/pdf/2111.14887.pdf
+- 代码 | https://github.com/lhoyer/DAFormer
+
